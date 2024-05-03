@@ -1,0 +1,19 @@
+{
+  "name": "context-wrapper",
+  "version": "1.0.0",
+  "description": "Context Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-Amit/context-wrapper.git"
+  },
+  "author": "Amit Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder-Amit/context-wrapper/issues"
+  },
+  "homepage": "https://github.com/Coder-Amit/context-wrapper#readme"
+}
