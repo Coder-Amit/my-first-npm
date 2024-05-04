@@ -1,5 +1,5 @@
 {
-  "name": "context-wrapper",
+  "name": "ca-react-context-wrapper",
   "version": "1.0.0",
   "description": "Context Wrapper",
   "main": "index.js",
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Coder-Amit/context-wrapper.git"
+    "url": "git+https://github.com/Coder-Amit/ca-react-context-wrapper.git"
   },
   "author": "Amit Mishra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Coder-Amit/context-wrapper/issues"
+    "url": "https://github.com/Coder-Amit/ca-react-context-wrapper/issues"
   },
-  "homepage": "https://github.com/Coder-Amit/context-wrapper#readme"
+  "homepage": "https://github.com/Coder-Amit/ca-react-context-wrapper#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4"
+  }
 }

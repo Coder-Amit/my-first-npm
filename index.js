@@ -1,4 +1,4 @@
 function isWorking(str) {
-    return str === 'amit'
+    return str === 'amit' ? 'Working' : 'not working'
 }
-module.exports = isWorking
+module.exports = { isWorking, ContextMenuWrapper }
