@@ -1,22 +1,41 @@
 {
-  "name": "ca-react-context-wrapper",
+  "name": "my-first-npm",
   "version": "1.0.0",
-  "description": "Context Wrapper",
-  "main": "index.js",
+  "type": "module",
+  "description": "This is a boilerplate to create NPM package for one or more ReactJS custom hooks and components.",
+  "author": {
+    "name": "Amit Mishra"
+  },
+  "main": "dist/main.js",
+  "module": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Coder-Amit/ca-react-context-wrapper.git"
-  },
-  "author": "Amit Mishra",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Coder-Amit/ca-react-context-wrapper/issues"
-  },
-  "homepage": "https://github.com/Coder-Amit/ca-react-context-wrapper#readme",
+  "keywords": [
+    "react",
+    "react-custom-hooks",
+    "hooks",
+    "custom",
+    "hooks",
+    "npm"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "^4.12.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "terser-webpack-plugin": "^5.2.3",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3"
+  },
+  "exports": {
+    ".": "./dist/main.js",
+    "./NewCompo": "./dist/NewCompo.js"
   }
 }
